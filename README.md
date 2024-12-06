@@ -10,7 +10,7 @@ python train.py --num_epochs 10 --batch_size 4 --learning_rate 1e-3 --num_classe
 ```
 
 ## Datasets
-This dataset has 2975 training images files and 500 validation image files. Each image file is 256x512 pixels, and each file is a composite with the original photo on the left half of the image, alongside the labeled image (output of semantic segmentation) on the right half.
+This dataset has 2975 training images files and 500 validation image files. Each image file is 256x512 pixels, and each file is a composite with the original photo on the left half of the image, alongside the labeled image (output of semantic segmentation) on the right half. You can access the datasets from this [dataset](https://www.kaggle.com/datasets/dansbecker/cityscapes-image-pairs)
 
 ## Model
 ```
